@@ -7,7 +7,8 @@
 
     $solutionDirectory = (Get-Item $solutionFile).DirectoryName
 
-    $artifactsDirectory= ".build"
+	$cur = pwd
+    $artifactsDirectory= "$cur\.build"
 
     $nuget = "$env:USERPROFILE\Documents\WindowsPowerShell\psake-master\psake-master\build\nuget\NuGet.exe"
 

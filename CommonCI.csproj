@@ -48,6 +48,7 @@
     <None Include="build.pipeline.ps1" />
     <None Include="build.ps1" />
     <None Include="build.task.init.ps1" />
+    <None Include="build.task.rebuild.ps1" />
     <None Include="build.task.restore.ps1" />
     <None Include="packages.config" />
   </ItemGroup>
