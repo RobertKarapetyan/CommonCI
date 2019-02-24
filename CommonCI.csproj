@@ -50,6 +50,7 @@
     <None Include="build.task.init.ps1" />
     <None Include="build.task.rebuild.ps1" />
     <None Include="build.task.restore.ps1" />
+    <None Include="build.task.test.ps1" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
